@@ -12,6 +12,7 @@ a:focus, a:hover {
 }
 
 h1.first{
+    font-family: montserrat;
     font-size: 1.6vw;
     border: 2px solid #f5f5f5;
     width: 17%;
