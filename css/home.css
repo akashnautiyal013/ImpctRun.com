@@ -23,6 +23,11 @@ h1.first{
     padding: 10px;
     border-radius: 4px;
 }
+span.fa.fa-android {
+    padding: 10px;
+    font-size: 20px;
+    margin-left: -11px;
+}
 section#section01 {
     position: absolute;
     left: 0;
