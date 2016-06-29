@@ -833,11 +833,22 @@ img.phoneimageIN {
     position: absolute;
     right: 0;
     bottom: 6vh;
-    color: orange;
+    color: white;
     margin-right: 150px;
     font-family: montserrat;
     font-weight: bold;
     font-size: 0.8vw;
+}
+p.contact2 {
+    margin-right: 150px;
+    color: white;
+    bottom: 10vh;
+    font-size: 1.2vw;
+    font-family: montserrat;
+    position: absolute;
+    right: 0;
+    left: 18%;
+    margin-bottom: -3%;
 }
 .lastslide h2 {
     margin-right: 150px;
@@ -887,17 +898,7 @@ p.wow.slideInRight.contact {
     left: 18%;
     margin-bottom: -8%;
 }
-p.wow.slideInRight.contact2 {
-    margin-right: 150px;
-    color: white;
-    bottom: 10vh;
-    font-size: 1.2vw;
-    font-family: montserrat;
-    position: absolute;
-    right: 0;
-    left: 18%;
-    margin-bottom: -3%;
-}
+
 
    .swiper-container {
        position: absolute !important;
