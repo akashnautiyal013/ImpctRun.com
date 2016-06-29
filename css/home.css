@@ -829,7 +829,7 @@ img.phoneimageIN {
     z-index: 100;
 }
 
-.lastslide p {
+/*.lastslide p {
     position: absolute;
     right: 0;
     bottom: 6vh;
@@ -838,17 +838,12 @@ img.phoneimageIN {
     font-family: montserrat;
     font-weight: bold;
     font-size: 0.8vw;
-}
+}*/
 p.contact2 {
-    margin-right: 150px;
+    text-align: center;
     color: white;
-    bottom: 10vh;
     font-size: 1.2vw;
     font-family: montserrat;
-    position: absolute;
-    right: 0;
-    left: 18%;
-    margin-bottom: -3%;
 }
 .lastslide h2 {
     margin-right: 150px;
@@ -870,33 +865,15 @@ img.ViewApp {
 .WraptextLastSlide2 {
     position: absolute;
     bottom: 0;
-    width: 46%;
-    text-align: left;
-    /* left: 0; */
+    width: 100%;
+    text-align: center;
     height: 200px;
-    left: 0;
-    right: 0;
 }
 .WraptextLastSlide {
     position: absolute;
     width: 100%;
     height: 100%;
     top: 0;
-}
-.WraptextLastSlide2 h2 {
-    left: 18%;
-    margin-right: 0;
-}
-p.wow.slideInRight.contact {
-    margin-right: 150px;
-    color: white;
-    bottom: 10vh;
-    font-size: 1.2vw;
-    font-family: montserrat;
-    position: absolute;
-    right: 0;
-    left: 18%;
-    margin-bottom: -8%;
 }
 
 
