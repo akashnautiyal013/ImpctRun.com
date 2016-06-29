@@ -846,13 +846,10 @@ p.contact2 {
     font-family: montserrat;
 }
 .lastslide h2 {
-    margin-right: 150px;
     color: white;
-    bottom: 10vh;
     font-size: 1.8vw;
     font-family: montserrat;
-    position: absolute;
-    right: 0;
+
 }
 img.ViewApp {
     position: absolute;
