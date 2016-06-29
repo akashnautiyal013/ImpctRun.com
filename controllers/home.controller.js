@@ -1,29 +1,21 @@
 angular.module('Impactrun', []).controller('HomeController', HomeController);
 
-function HomeController($scope) {
-    
+function HomeController($scope, $location, anchorSmoothScroll) {
+ $scope.gotoElement = function (eID){
+      // set the location.hash to the id of
+      // the element you wish to scroll to.
+      $location.hash('bottom');
+
+      // call $anchorScroll()
+      anchorSmoothScroll.scrollTo(eID);
+
+    };
     var loader = function() {
         $("#loader").delay(4000).fadeOut(400, function() {
             $("body").fadeIn(400);
         });
     };
-    var wow = new WOW(
-      {
-        boxClass:     'wow',      // animated element css class (default is wow)
-        animateClass: 'animated', // animation css class (default is animated)
-        offset:       200,          // distance to the element when triggering the animation (default is 0)
-        mobile:       false,       // trigger animations on mobile devices (default is true)
-        live:         true,       // act on asynchronously loaded content (default is true)
-        callback:     function(box) {
-          // the callback is fired every time an animation is started
-          // the argument that is passed in is the DOM node being animated
-        },
-        scrollContainer: null // optional scroll container selector, otherwise use window
-      }
-    );
-    wow.init();
-    wow.sync();
-
+    new WOW().init();
       var swiper = new Swiper('.swiper-container', {
         pagination: '.swiper-pagination',
         paginationClickable: true,
@@ -117,7 +109,7 @@ function HomeController($scope) {
     // })(window);
 
 
-    
+
     $(document).ready(function() {
         loader();
     });
