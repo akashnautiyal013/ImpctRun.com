@@ -10,7 +10,11 @@ a:focus, a:hover {
 .wow {
    visibility: hidden;
 }
-
+.overlay {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
 h1.first{
     font-family: montserrat;
     font-size: 1.6vw;
@@ -804,6 +808,9 @@ img.phoneimageIN {
     border-right: 5px solid rgb(48, 93, 169);
     border-top: 5px solid rgb(48, 93, 169);
     border-bottom: 5px solid rgb(48, 93, 169);
+}
+.overlay.last {
+    background: rgba(138, 43, 226, 0.54);
 }
 .lastslide.ng-scope {
     background-image: url("/ImpactRunSiteImages/ImpactRun_Img7.jpg");
