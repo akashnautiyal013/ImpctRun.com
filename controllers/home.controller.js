@@ -15,100 +15,61 @@ function HomeController($scope, $location, anchorSmoothScroll) {
             $("body").fadeIn(400);
         });
     };
-    new WOW().init();
-      var swiper = new Swiper('.swiper-container', {
-        pagination: '.swiper-pagination',
-        paginationClickable: true,
-        centeredSlides: true,
-        autoplay: 3000,
-        autoplayDisableOnInteraction: false
-    });
-    // var swiper = new Swiper('.swiper-container', {
-    //     pagination: '.swiper-pagination',
-    //     paginationClickable: true,
-    //     spaceBetween: 30,
-    //     centeredSlides: true,
-    //     autoplay: 25000,
-    //     autoplayDisableOnInteraction: false
-    // });
+ 
+    
+     
+var s = skrollr.init({
+  render: function(data){
+    document.querySelector(".whereami").innerHTML = data.curTop;
+  }
+});
 
-    // function init() {
-    //     window.addEventListener('scroll', function(e) {
-    //         var distanceY = window.pageYOffset || document.documentElement.scrollTop,
-    //             shrinkOn = 100,
-    //             header1 = document.querySelector("header1");
-    //         if (distanceY > shrinkOn) {
-    //             classie.add(header1, "smaller");
-    //         } else {
-    //             if (classie.has(header1, "smaller")) {
-    //                 classie.remove(header1, "smaller");
-    //             }
-    //         }
-    //     });
-    // }
-    // window.onload = init();
+ var loader = function() {
+        $("#loader").delay(4000).fadeOut(4000, function() {
+            $("body").fadeIn(4000);
+        });
+    };
+ 
+// window.onscroll = function(){
+//   var frame4 = document.querySelector(".frame4");
+//   console.log(frame4.classList.contains("skrollable-between"));
+// if(frame4.classList.contains("skrollable-between")){
+//   document.body.style.cursor = 'auto';
+// }
+// }
+$('#changingcontainer h1:gt(0)').hide();
+setInterval(function(){
+    $('#changingcontainer h1:first-child').fadeOut('slow')
+     .next('h1').fadeIn('slow')
+     .end().appendTo('#changingcontainer');}, 
+     2000);
+ $scope.gotoElement = function (eID){
+      // set the location.hash to the id of
+      // the element you wish to scroll to.
+      $location.hash('bottom');
 
-    // (function(window) {
+      // call $anchorScroll()
+      anchorSmoothScroll.scrollTo(eID);
 
-    //     function classReg(className) {
-    //         return new RegExp("(^|\\s+)" + className + "(\\s+|$)");
-    //     }
-
-    //     var hasClass, addClass, removeClass;
-
-    //     if ('classList' in document.documentElement) {
-    //         hasClass = function(elem, c) {
-    //             return elem.classList.contains(c);
-    //         };
-    //         addClass = function(elem, c) {
-    //             elem.classList.add(c);
-    //         };
-    //         removeClass = function(elem, c) {
-    //             elem.classList.remove(c);
-    //         };
-    //     } else {
-    //         hasClass = function(elem, c) {
-    //             return classReg(c).test(elem.className);
-    //         };
-    //         addClass = function(elem, c) {
-    //             if (!hasClass(elem, c)) {
-    //                 elem.className = elem.className + ' ' + c;
-    //             }
-    //         };
-    //         removeClass = function(elem, c) {
-    //             elem.className = elem.className.replace(classReg(c), ' ');
-    //         };
-    //     }
-
-    //     function toggleClass(elem, c) {
-    //         var fn = hasClass(elem, c) ? removeClass : addClass;
-    //         fn(elem, c);
-    //     }
-
-    //     var classie = {
-    //         // full names
-    //         hasClass: hasClass,
-    //         addClass: addClass,
-    //         removeClass: removeClass,
-    //         toggleClass: toggleClass,
-    //         // short names
-    //         has: hasClass,
-    //         add: addClass,
-    //         remove: removeClass,
-    //         toggle: toggleClass
-    //     };
-
-    //     // transport
-    //     if (typeof define === 'function' && define.amd) {
-    //         // AMD
-    //         define(classie);
-    //     } else {
-    //         // browser global
-    //         window.classie = classie;
-    //     }
-    // })(window);
+    };
 
 
+
+    $('#Causecontainer p:gt(0)').hide();
+setInterval(function(){
+    $('#Causecontainer p:first-child').fadeOut('slow')
+     .next('p').fadeIn('slow')
+     .end().appendTo('#Causecontainer');}, 
+     2000);
+
+    $('#Causeimg img:gt(0)').hide();
+setInterval(function(){
+    $('#Causeimg img:first-child').fadeOut('slow')
+     .next('img').fadeIn('slow')
+     .end().appendTo('#Causeimg');}, 
+     2000);
+
+    
 
     $(document).ready(function() {
         loader();

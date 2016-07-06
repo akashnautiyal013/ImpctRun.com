@@ -65,9 +65,8 @@
         $routeProvider
             .when('/', {
                 controller: 'HomeController',
-                templateUrl: 'templates/Home.html',
-                reloadOnSearch: false
-
+                templateUrl: 'templates/Home.html'
+               
             })
 
             .when('/blog', {

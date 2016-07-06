@@ -5,9 +5,48 @@
     font-size: 9.7vw;
     color: white;
 }
+.logo img {
+    width: 70% !important;
+}
+
+.home.eight {
+    top: 603% !important;
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    background: blue;
+}
+.home.seventh {
+    top: 493% !important;
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    background: blue;
+}
+.home.sixth {
+    top: 391% !important;
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    background: red;
+}
+.home.fifth {
+    top: 285% !important;
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    background: white;
+}
+.home.forth {
+    top: 185% !important;
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    background: blue;
+}
   .containerHome{
-    position: relative;
-    height: 580px;
+    position:absolute;
+    height: 108%;
     width: 100%;
   }
     .container {
@@ -18,12 +57,27 @@
         width: 100%;
         height: 600px;
     }
-   .HomeSecondImage {
+    h1.first {
+    font-family: montserrat;
+    font-size: 3.8vw;
+    border: 2px solid #f5f5f5;
+    width: 43%;
+    position: absolute;
+    left: 0;
     right: 0;
+    top: 67%;
+    padding: 5px;
+    margin: 0 auto;
+    color:rgb(48, 93, 169);
+    background: white;
+    border-radius: 4px;
+}
+
+  .HomeSecondImage {
+    right: -68px;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 19vw 100%;
-    top: -20px;
     height: 370px;
     width: 80%;
 }
@@ -42,14 +96,7 @@
     margin: 0!important;
 }
 
-p.wow.slideInRight.contact {
-    top: 450px;
-    left: 0;
-}
-p.wow.slideInRight.contact2 {
-    top: 430px;
-    left: 0;
-}
+
 
 .text {
     color: #FFFFFF;
@@ -65,15 +112,15 @@ p.wow.slideInRight.contact2 {
     top: 45%;
 }
     .containerSecond1 {
-        width: 54.3%;
-        position: absolute;
-        z-index: 10;
-        border-left: 5px solid rgb(48, 93, 169);
-        border-top: 5px solid rgb(48, 93, 169);
-        border-bottom: 5px solid rgb(48, 93, 169);
-        right: 0;
-        bottom: 7vh;
-    }
+    width: 99%;
+    position: absolute;
+    z-index: 10;
+    border-left: 5px solid rgb(48, 93, 169);
+    border-top: 5px solid rgb(48, 93, 169);
+    border-bottom: 5px solid rgb(48, 93, 169);
+    right: 0;
+    bottom: 7vh;
+}
    .lineTilt {
     position: absolute;
     -moz-transform: rotate(40deg);
@@ -145,11 +192,11 @@ p.wow.slideInRight.contact2 {
     left: 0;
      }
     .ContainerThird {
-        position: relative;
-        height: 500px;
-        z-index: 10;
-        width: 100%;
-    }
+    position: absolute;
+    height: 100%;
+    z-index: 10;
+    width: 100%;
+}
     .containerThird1 {
         height: 67%;
         width: 30.3%;
@@ -184,6 +231,14 @@ p.wow.slideInRight.contact2 {
         height: 550px;
         z-index: 100;
     }
+    .ContainerFourthText {
+    position: absolute;
+    text-align: center;
+    left: 25px;
+    right: 0;
+    top: 13vh;
+    width: 20%;
+}
     .lastslide h1 {
         text-align: center;
         font-size: 6.3vw;
@@ -192,14 +247,13 @@ p.wow.slideInRight.contact2 {
         padding-top: 32px;
     }
     .lastslide h2 {
-    position: relative;
     text-align: center;
     margin-right: 0;
     font-size: 12.8vw;
     font-family: montserrat;
     margin-top: 131px;
 }
-    .lastslide p.wow.slideInRight {
+    .lastslide{
     text-align: center;
     width: 100%;
     margin-top: -37px;
@@ -213,13 +267,14 @@ p.wow.slideInRight.contact2 {
         width: 100%;
         z-index: 1;
     }
-    .SecondSLideLastText {
+   .SecondSLideLastText {
     letter-spacing: 1px;
     margin-top: 0;
     position: absolute;
     bottom: 50px;
-    left: 0;
     right: 0;
+    top: 86%;
+    width: 183%;
 }
     .ContainerFourthText.wow.pulse {
         position: relative;
@@ -237,7 +292,7 @@ p.wow.slideInRight.contact2 {
     }
     .ContainerFifth {
         position: relative;
-        height: 500px;
+        height: 100%;
         width: 100%;
         z-index: 10;
         background: white;
@@ -265,7 +320,7 @@ p.wow.slideInRight.contact2 {
     .now2 {
         display: none;
     }
-    .CauseBackground1 {
+    #Causeimg img {
         left: 0;
         width: 45%;
         height: 100%;
@@ -273,22 +328,7 @@ p.wow.slideInRight.contact2 {
         background-size: cover;
         background-repeat: no-repeat;
     }
-    .CauseBackground2 {
-        left: 0;
-        width: 45%;
-        height: 100%;
-        background-position: 64%;
-        background-size: cover;
-        background-repeat: no-repeat;
-    }
-    .CauseBackground3 {
-        left: 0;
-        width: 45%;
-        height: 100%;
-        background-position: 75%;
-        background-size: cover;
-        background-repeat: no-repeat;
-    }
+
     .textWrapFifth {
         right: 0;
     }
@@ -364,13 +404,12 @@ p.wow.slideInRight.contact2 {
     }
     .ContainerEight {
         position: relative;
-        height: 500px;
+        height: 100%;
         z-index: 10;
         width: 100%;
         display: flex;
         background: white;
         color: white;
-        margin-top: 58px;
     }
     .backgroundImageEight {
     background-image: url("/ImpactRunSiteImages/ImpactRun_Quotes-01.png");

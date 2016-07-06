@@ -1,4 +1,9 @@
-
+body{
+    font-family: open sans;
+}
+p,h1,h2,h3,h4{
+    font-family: open sans;
+}
 a{
     text-decoration: none;
     color: white;
@@ -7,37 +12,45 @@ a:focus, a:hover {
     color: white;
     text-decoration: none;}
 
-.wow {
-   visibility: hidden;
-}
+
 .overlay {
     position: absolute;
     height: 100%;
     width: 100%;
 }
-h1.first{
+h1.first {
     font-family: montserrat;
-    font-size: 1.6vw;
+    font-size: 1.8vw;
     border: 2px solid #f5f5f5;
-    width: 17%;
+    width: 15%;
     position: absolute;
     left: 0;
     right: 0;
     top: 67%;
+    padding: 3px 0px 0px 0px;
     margin: 0 auto;
-    padding: 10px;
+    background: white;
+    color: rgb(48, 93, 169);
     border-radius: 4px;
+}
+h1.first:hover {
+    background: #f5f5f5;
+    color: rgb(48, 93, 169);
+}
+h1.first img {
+    width: 23%;
+    margin-bottom: 5px;
 }
 span.fa.fa-android {
     padding: 10px;
-    font-size: 20px;
+    font-size: 1.8vw;
     margin-left: -11px;
 }
 section#section01 {
     position: absolute;
     left: 0;
     right: 0;
-    top: 85%;
+    top: 80%;
 }
 #section01 a {
     padding-top: 70px;
@@ -86,7 +99,7 @@ section#section01 {
 .containerHome {
     font-weight: 300;
     text-align: center;
-    background-image: url("/ImpactRunSiteImages/ImpactRun_Img1.jpg");
+    background-image: url("../ImpactRunSiteImages/ImpactRun_Img1.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 50% 90%;
@@ -94,19 +107,19 @@ section#section01 {
     left: 0;
     right: 0;
     width: 100%;
-    height: 90%;
+    height: 108%;
     position: absolute;
     background-color: white;
 }
 
 .HomeSecondImage {
-    background-image: url("/ImpactRunSiteImages/ImpactRun_Img2.jpg");
-    width: 35.3%;
+    width: 100%;
     position: absolute;
     right: 0;
-    margin-top: -5%;
-    height: 113%;
+    margin-top: 0%;
+    height: 100%;
     background-size: cover;
+
 }
 
 
@@ -118,7 +131,6 @@ section#section01 {
 }
 .ContainerThird {
     position: absolute;
-    top: 190%;
     height: 100%;
     z-index: 10;
     width: 100%;
@@ -127,7 +139,7 @@ section#section01 {
     color: white;
 }
 .containerSecond1 {
-    width: 85%;
+    width: 50vh;
     height: 70%;
     position: absolute;
     z-index: 10;
@@ -138,17 +150,32 @@ section#section01 {
     top: 15%;
 }
 .SecondSLideLastText {
+    position: fixed;
     text-align: center;
     color: #193E82;
     letter-spacing: 5px;
-    margin-top: 58vh;
-    margin-left: 8vw;
+    top: 150vh;
+    left: 0;
+    right:0;
+}
+.SecondSLideLastText h1 {
+    font-weight: 700;
 }
 .square {
     height: 15px;
     margin: 10px 10px 3px 14px;
     width: 15px;
     display: inline-block;
+    background: red;
+    transform: rotate(45deg);
+}
+.squaresec {
+    position: fixed;
+    height: 15px;
+    margin: 10px 10px 3px 14px;
+    width: 15px;
+    display: inline-block;
+
     background: red;
     transform: rotate(45deg);
 }
@@ -166,9 +193,9 @@ section#section01 {
 }
 .text {
     color: #FFFFFF;
-    font-family: montserrat light;
     z-index: 0;
-    font-size:  2.1vw;
+    font-family: montserrat;
+    font-size:  1.8vw;
     font-weight: 100;
     width: 75%;
     position: absolute;
@@ -179,7 +206,7 @@ section#section01 {
 }
 .logo {
     padding-top: 30px;
-    font-family: montserrat,sans-serif;
+    font-family: montserrat;
     font-size: 4.7vw;
     color: white;
 }
@@ -192,7 +219,7 @@ section#section01 {
     left: 0;
     right: 0;
 }
-.containerSec {
+.containerSecond {
     left: 0;
     z-index: 0;
     position: absolute;
@@ -329,9 +356,8 @@ img.phoneimageIN {
 .ContainerSecondText {
     height: 100%;
     position: absolute;
-    margin-top: 20vh;
-    margin-left: 15vw;
-    width: 39%;
+    margin-left: 5vw;
+    width: 55%;
     text-align: left;
 }
 .textWrap {
@@ -347,7 +373,6 @@ img.phoneimageIN {
     font-weight: 500;
 }
 .ContainerSecondText h2 {
-    letter-spacing: 2px;
     font-weight: 600;
     color: rgb(48, 93, 169);
     font-size: 2.2vw;
@@ -356,17 +381,15 @@ img.phoneimageIN {
 }
 
 .lineTilt {
-    position: absolute;
     -moz-transform: rotate(40deg);
     -o-transform: rotate(40deg);
     -webkit-transform: rotate(40deg);
     -ms-transform: rotate(40deg);
     transform: rotate(40deg);
-    height: 40%;
+    height: 100%;
     width: 1px;
-    top: 20vh;
-    left: 26vw;
-    background-color: orange;
+    left: 20vw;
+    background-color: #ef2e2e;
 }
 .HomeThirdImage {
     position: absolute;
@@ -420,13 +443,14 @@ img.phoneimageIN {
     border-bottom: 5px solid rgb(48, 93, 169);
 }
 .lineTilt.Second {
-    top: -17px;
+    position: absolute;
     height: 150%;
-    left: 11vw;
+    left: 10vw;
+    top:25%;
 }
 .ContainerThirdText p {
     margin-top: 100px;
-    width: 67%;
+    width: 25%;
     font-size: 1.4vw;
     margin-left: -52px;
     margin-bottom: 0;
@@ -459,10 +483,9 @@ img.phoneimageIN {
 
 .ContainerFourth {
     position: absolute;
-    top: 290%;
     width: 100%;
     z-index: 100;
-    height: 80%;
+    height: 100%;
 }
 .now1 {
     position: absolute;
@@ -492,7 +515,6 @@ img.phoneimageIN {
     height: 100%;
     width: 100%;
     z-index: 10;
-    top: 375%;
     background: white;
 }
 .ContainerFourthText {
@@ -500,7 +522,7 @@ img.phoneimageIN {
     text-align: center;
     left: 0;
     right: 0;
-    top: 30vh;
+    top: 40vh;
 }
 .ContainerFourthText h2 {
     position: relative;
@@ -523,14 +545,38 @@ img.phoneimageIN {
     -ms-transform: rotate(40deg);
     transform: rotate(40deg);
     height: 275px;
-    width: 1px;
-    background-color: orange;
+    width: 1.2px;
+    background-color: #ef2e2e;
     margin-left: 50%;
     margin-top: -180px;
 }
+.lineTiltWrap{
+    position: absolute;
+    -moz-transform: rotate(40deg);
+    -o-transform: rotate(40deg);
+    -webkit-transform: rotate(40deg);
+    -ms-transform: rotate(40deg);
+    transform: rotate(40deg);
+    height: 275px;
+    width: 2px;
+    margin: 0 auto;
+    left: 30%;
+    top: -28px;
+}
+.lineTiltWrap.sec{
+    position: static;
+    -moz-transform: rotate(40deg);
+    -o-transform: rotate(40deg);
+    -webkit-transform: rotate(40deg);
+    -ms-transform: rotate(40deg);
+    transform: rotate(40deg);
+    height: 275px;
+    width: 2px;
+    margin: 0 auto;
+    left: 30%;
+    top: -28px;
+}
 .textWrapFifth {
-    padding: 5vw;
-    padding-left: 13vw;
     position: absolute;
     z-index: 100;
     top: 0;
@@ -549,14 +595,27 @@ img.phoneimageIN {
     transform: rotate(40deg);
     height: 150%;
     width: 1px;
-    background-color: orange;
+    background-color: #ef2e2e;
     position: absolute;
-    top: -5vh;
-    left: 25vw;
+    top: -10%;
+    left: 26%;
+}
+.lineTiltWrap.third {
+    position: absolute;
+    -moz-transform: rotate(40deg);
+    -o-transform: rotate(40deg);
+    -webkit-transform: rotate(40deg);
+    -ms-transform: rotate(40deg);
+    transform: rotate(40deg);
+    height: 150%;
+    width: 2px;
+    margin: 0 auto;
+    left: 30%;
+    top: -28px;
 }
 
 .ContainerFifthText h2 {
-    font-size: 3.2vw;
+    font-size: 2.1vw;
     color: rgb(48, 93, 169);
 }
 .FifthSlidWrap {
@@ -567,23 +626,13 @@ img.phoneimageIN {
     left: 0;
     text-align: left;
 }
-.CauseBackground1 {
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-image: url("/ImpactRunSiteImages/ImpactRun_Img3.jpg");
-    height: 70%;
-    width: 51%;
-    position: absolute;
-    right: 0;
-    z-index: 0;
-    bottom: 0;
-}
+
 .FifthBorder {
     z-index: 10;
     position: absolute;
     height: 56%;
-    width: 35%;
-    left: 0;
+    width: 38%;
+    left: 30%;
     right: 0;
     margin: 57px 34% 0 auto;
     border: 5px solid #1C3490;
@@ -633,7 +682,7 @@ img.phoneimageIN {
     transform: rotate(40deg);
     height: 196px;
     width: 1px;
-    background-color: orange;
+    background-color: #ef2e2e;
     margin-top: -149px;
     margin-left: 168px;
 }
@@ -641,21 +690,12 @@ img.phoneimageIN {
     font-size: 3vw;
     color: rgb(48, 93, 169);
 }
-.CauseBackground2 {
-     background-repeat: no-repeat;
-     background-size: cover;
-    background-image: url("/ImpactRunSiteImages/ImpactRun_Img5.jpg");
-    position: absolute;
-    height: 70%;
-    width: 51.3%;
-    right: 0;
-    bottom: 0;
-}
+
 .SixthBorder {
     position: absolute;
     height: 56%;
-    width: 36%;
-    left: 0;
+    width: 38%;
+    left: 30%;
     right: 0;
     z-index: 1;
     margin: 57px 34% 0 auto;
@@ -684,7 +724,9 @@ img.phoneimageIN {
 .textWrapSeventh{
     padding: 5vw;
     padding-left: 13vw;
+
 }
+
 .ContainerSeventhText {
     width: 35%;
     text-align: left;
@@ -697,7 +739,7 @@ img.phoneimageIN {
     transform: rotate(40deg);
     height: 196px;
     width: 1px;
-    background-color: orange;
+    background-color: #ef2e2e;
     margin-top: -149px;
     margin-left: 168px;
 }
@@ -715,10 +757,7 @@ img.phoneimageIN {
     left: 0;
     text-align: left;
     }
-.CauseBackground3{
-     background-repeat: no-repeat;
-     background-size: cover;
-    background-image: url("/ImpactRunSiteImages/ImpactRun_Img6.jpg");
+#Causeimg img{
     position: absolute;
     right: 0;
     bottom: 0;
@@ -729,8 +768,8 @@ img.phoneimageIN {
 .SeventhBorder {
     position: absolute;
     height: 56%;
-    width: 35%;
-    left: 0;
+    width: 38%;
+    left: 30%;
     bottom: 7vh;
     right: 0;
     z-index: 1;
@@ -745,7 +784,6 @@ img.phoneimageIN {
 }
 .ContainerEight{
     position: absolute;
-    top: 485%;
     height: 100%;
     z-index: 10;
     width: 100%;
@@ -812,24 +850,21 @@ img.phoneimageIN {
 .overlay.last {
     background: rgba(138, 43, 226, 0.54);
 }
-.lastslide.ng-scope {
+.lastslide {
     background-image: url("/ImpactRunSiteImages/ImpactRun_Img7.jpg");
     background-size: cover;
     height: 100%;
-    margin-top: -60px;
     position: absolute;
     z-index: 11;
-    top: 585%;
     width: 100%;
 }
 .lastslide h1 {
     border: 3px solid white;
     text-align: center;
-    color: white;
-   margin: 0 auto;
-    padding: 13px;
+    margin: 0 auto;
+    /* padding: 13px; */
     font-family: montserrat;
-    width: 329px;
+    width: 18%;
     border-radius: 9px;
 }
 .btnCenter {
@@ -854,11 +889,13 @@ img.phoneimageIN {
 }*/
 p.contact2 {
     text-align: center;
+    text-shadow:10px 5px 10px black;
     color: white;
     font-size: 1.2vw;
     font-family: montserrat;
 }
 .lastslide h2 {
+    text-shadow:10px 5px 10px black;
     color: white;
     font-size: 1.8vw;
     font-family: montserrat;
@@ -929,96 +966,20 @@ img.ViewApp {
 }
 
 
-.visible {
-    overflow: hidden;
-    height: 46px;
-    display: inline-block;
-    margin-bottom: -13px;
-    text-align: left;
+#changingcontainer {
+    position: fixed;
+    margin-left: 10px;
 }
+#changingcontainer h1{position:absolute; top:0; left:0}
 
 
-
-.visible ul {
-    line-height: 22px;
-    padding-left: 0;
-    margin-top: 0px;
-    text-align: left;
-    list-style: none;
-    -webkit-animation: 6s linear 0s normal none infinite change;
-    animation: 10s linear 0s normal none infinite change;
+#Causecontainer {
+    position: absolute;
+    margin-left: 10px;
 }
-.visible ul li {
-  line-height: 40px;
-  margin: 0;
+#Causecontainer p{position:absolute; top:0; left:0}
+
+#Causeimg {
+    margin-left: 10px;
 }
 
-@-webkit-keyframes opacity {
-  0%, 100% {
-    opacity: 0;
-  }
-  50% {
-    opacity: 1;
-  }
-}
-
-@keyframes opacity {
-  0%, 100% {
-    opacity: 0;
-  }
-  50% {
-    opacity: 1;
-  }
-}
-@-webkit-keyframes change {
-  0%, 12%, 100% {
-    -webkit-transform: translateY(0);
-            transform: translateY(0);
-  }
-  17%,29% {
-    -webkit-transform: translateY(-25%);
-            transform: translateY(-25%);
-  }
-  34%,46% {
-    -webkit-transform: translateY(-50%);
-            transform: translateY(-50%);
-  }
-  51%,63% {
-    -webkit-transform: translateY(-75%);
-            transform: translateY(-75%);
-  }
-  68%,80% {
-    -webkit-transform: translateY(-50%);
-            transform: translateY(-50%);
-  }
-  85%,97% {
-    -webkit-transform: translateY(-25%);
-            transform: translateY(-25%);
-  }
-}
-@keyframes change {
-  0%, 12%, 100% {
-    -webkit-transform: translateY(0);
-            transform: translateY(0);
-  }
-  17%,29% {
-    -webkit-transform: translateY(-25%);
-            transform: translateY(-25%);
-  }
-  34%,46% {
-    -webkit-transform: translateY(-50%);
-            transform: translateY(-50%);
-  }
-  51%,63% {
-    -webkit-transform: translateY(-75%);
-            transform: translateY(-75%);
-  }
-  68%,80% {
-    -webkit-transform: translateY(-50%);
-            transform: translateY(-50%);
-  }
-  85%,97% {
-    -webkit-transform: translateY(-25%);
-            transform: translateY(-25%);
-  }
-}
