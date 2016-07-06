@@ -24,12 +24,7 @@ var s = skrollr.init({
   }
 });
 
- var loader = function() {
-        $("#loader").delay(4000).fadeOut(4000, function() {
-            $("body").fadeIn(4000);
-        });
-    };
- 
+
 // window.onscroll = function(){
 //   var frame4 = document.querySelector(".frame4");
 //   console.log(frame4.classList.contains("skrollable-between"));
@@ -43,15 +38,6 @@ setInterval(function(){
      .next('h1').fadeIn('slow')
      .end().appendTo('#changingcontainer');}, 
      2000);
- $scope.gotoElement = function (eID){
-      // set the location.hash to the id of
-      // the element you wish to scroll to.
-      $location.hash('bottom');
-
-      // call $anchorScroll()
-      anchorSmoothScroll.scrollTo(eID);
-
-    };
 
 
 
