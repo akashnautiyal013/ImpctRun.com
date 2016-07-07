@@ -10,35 +10,30 @@
 }
 
 .home.eight {
-    top: 603% !important;
     position: fixed;
     height: 100%;
     width: 100%;
     background: blue;
 }
 .home.seventh {
-    top: 493% !important;
     position: fixed;
     height: 100%;
     width: 100%;
     background: blue;
 }
 .home.sixth {
-    top: 391% !important;
     position: fixed;
     height: 100%;
     width: 100%;
     background: red;
 }
 .home.fifth {
-    top: 285% !important;
     position: fixed;
     height: 100%;
     width: 100%;
     background: white;
 }
 .home.forth {
-    top: 185% !important;
     position: fixed;
     height: 100%;
     width: 100%;
@@ -57,24 +52,24 @@
         width: 100%;
         height: 600px;
     }
-    h1.first {
+   h1.first {
     font-family: montserrat;
     font-size: 3.8vw;
     border: 2px solid #f5f5f5;
-    width: 43%;
+    width: 61%;
     position: absolute;
     left: 0;
     right: 0;
-    top: 67%;
-    padding: 5px;
+    top: 65%;
+    /* padding: 5px; */
     margin: 0 auto;
-    color:rgb(48, 93, 169);
+    color: rgb(48, 93, 169);
     background: white;
     border-radius: 4px;
 }
 
   .HomeSecondImage {
-    right: -68px;
+    right: -100px;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 19vw 100%;
@@ -82,9 +77,8 @@
     width: 80%;
 }
 .WraptextLastSlide2 {
-    position: relative;
+    position: absolute;
     margin: 0 auto;
-    padding-top: 150px;
     width: 100%;
 }
 .WraptextLastSlide2 h2 {
@@ -112,7 +106,7 @@
     top: 45%;
 }
     .containerSecond1 {
-    width: 99%;
+    width: 150%;
     position: absolute;
     z-index: 10;
     border-left: 5px solid rgb(48, 93, 169);
@@ -132,7 +126,7 @@
     width: 1px;
     left: 121px;
     top: 250px;
-    background-color: orange;
+    background-color: #ef2e2e;
 }
     .ContainerSecondText {
         height: 100%;
@@ -143,15 +137,33 @@
     }
    .ContainerSecondText p {
     color: rgb(48, 93, 169);
-    margin-left: 2%;
+    margin-left: 0%;
     letter-spacing: 1px;
     font-size: 17px;
+    font-weight: 500;
+}
+.lineTiltWrap {
+    position: absolute;
+    -moz-transform: rotate(40deg);
+    -o-transform: rotate(40deg);
+    -webkit-transform: rotate(40deg);
+    -ms-transform: rotate(40deg);
+    transform: rotate(40deg);
+    height: 275px;
+    width: 2px;
+    margin: 0 auto;
+    left: 90%;
+    top: -67px;
+}
+.home.third{
+    z-index: 100;
 }
    .ContainerSecondText h2 {
     color: rgb(48, 93, 169);
     font-size: 18px;
     line-height: 25px;
     letter-spacing: 1px;
+    font-weight: bolder;
 }
     .backgroundImageThird {
         background-image: url("/ImpactRunSiteImages/ImpactRun_QMark.png");
@@ -207,24 +219,29 @@
         border-bottom: 5px solid rgb(48, 93, 169);
     }
     .centerdiv {
-    margin-left: -10vw;
     position: relative;
     bottom: 100px;
     }
-    .ContainerThirdText.wow.slideInRight {
-    left: 88px;
-    bottom: 0;
-}
+  
     .ContainerThirdText p {
-        font-size: 3.2vw;
-        width: 76%;
-        margin-left: -10%;
-        /* position: absolute; */
-    }
+     font-size: 3.2vw;
+    width: 59%;
+    margin-left: -10%;
+    font-weight: 600;
+    /* position: absolute; */
+}
     .ContainerThirdText h2 {
         font-size: 5.8vw;
-        width: 91%;
+        width: 58%;
     }
+    .ContainerThirdText {
+    position: absolute !important;
+    height: 20%;
+    width: 100%;
+    padding: 0;
+    z-index: 10;
+    bottom: 10%;
+}
     .ContainerFourth {
         position: relative;
         width: 100%;
@@ -236,16 +253,16 @@
     text-align: center;
     left: 25px;
     right: 0;
-    top: 13vh;
+    top: 21vh;
     width: 20%;
 }
     .lastslide h1 {
-        text-align: center;
-        font-size: 6.3vw;
-        color: white;
-        font-family: montserrat;
-        padding-top: 32px;
-    }
+    text-align: center;
+    font-size: 6.3vw;
+    /* color: white; */
+    font-family: montserrat;
+    /* padding-top: 32px; */
+}
     .lastslide h2 {
     text-align: center;
     margin-right: 0;
@@ -256,7 +273,6 @@
     .lastslide{
     text-align: center;
     width: 100%;
-    margin-top: -37px;
     font-size: 5.2vw;
     position: relative;
 }
@@ -267,14 +283,15 @@
         width: 100%;
         z-index: 1;
     }
-   .SecondSLideLastText {
+ .SecondSLideLastText {
     letter-spacing: 1px;
     margin-top: 0;
-    position: absolute;
+    position: fixed;
     bottom: 50px;
-    right: 0;
-    top: 86%;
+    left: -53%;
+    top: 166%;
     width: 183%;
+    z-index: 100;
 }
     .ContainerFourthText.wow.pulse {
         position: relative;
@@ -285,11 +302,11 @@
         left: 10%;
     }
     .ContainerFourthText h2 {
-        font-weight: 700;
-        color: #1C3490;
-        font-size: 24vw;
-        line-height: 100px;
-    }
+    font-weight: 700;
+    color: #1C3490;
+    font-size: 18vw;
+    line-height: 74px;
+}
     .ContainerFifth {
         position: relative;
         height: 100%;
@@ -297,21 +314,21 @@
         z-index: 10;
         background: white;
     }
-    .ContainerFifthText h2 {
-        font-size: 5.8vw;
-        font-weight: 600;
-        color: rgb(48, 93, 169);
-    }
+  .ContainerFifthText h2 {
+    font-size: 4.8vw;
+    font-weight: 900;
+    color: rgb(48, 93, 169);
+}
     .ContainerFourthText p {
         font-size: 7vw;
         width: 85vw;
     }
     .lineTilt2 {
-        position: relative;
-        height: 400px;
-        margin-left: 100px;
-        top: -200px;
-    }
+    position: absolute;
+    height: 100%;
+    left: -53vw;
+    top: -99px;
+}
     .now1 {
         position: absolute;
         height: 200px;
@@ -320,7 +337,7 @@
     .now2 {
         display: none;
     }
-    #Causeimg img {
+    #Causeimg div {
         left: 0;
         width: 45%;
         height: 100%;
@@ -337,7 +354,7 @@
         text-align: left;
         position: absolute;
         top: 0;
-        left: -34vw;
+        left: -52vw;
     }
     .lineTiltFifth {
         display: none;
@@ -347,7 +364,7 @@
         position: absolute;
         height: 70%;
         width: 80%;
-        left: 0;
+        left: 8%;
         right: 0;
         margin: 57px 10% 0 auto;
         border: 5px solid #1C3490;
@@ -357,7 +374,7 @@
         color: #1C3490;
         font-size: 18px;
         width: 52%;
-        font-weight: 500;
+        font-weight: 900;
         position: absolute;
         bottom: 0;
         right: 0;
@@ -454,5 +471,11 @@
     font-size: 4.4vw;
     margin-left: -15px;
 }
-
+p.contact2 {
+    text-align: center;
+    text-shadow: 10px 5px 10px black;
+    color: white;
+    font-size: 6.2vw;
+    font-family: montserrat;
+}
 }

@@ -40,12 +40,12 @@ setInterval(function(){
 
 
 
-    $('#Causecontainer p:gt(0)').hide();
-setInterval(function(){
-    $('#Causecontainer p:first-child').fadeOut('slow')
-     .next('p').fadeIn('slow')
-     .end().appendTo('#Causecontainer');}, 
-     2000);
+//     $('#Causecontainer p:gt(0)').hide();
+// setInterval(function(){
+//     $('#Causecontainer p:first-child').fadeOut('slow')
+//      .next('p').fadeIn('slow')
+//      .end().appendTo('#Causecontainer');}, 
+//      2000);
 
     $('#Causeimg img:gt(0)').hide();
 setInterval(function(){

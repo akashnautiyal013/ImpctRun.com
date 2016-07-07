@@ -52,13 +52,13 @@ video {
     height: 80%;
     width: 50%;
     background: transparent;
-    top:100vh;
+    top:100%;
     right: 0;
     float: right;
     z-index: 100;
 }
 .home.third{
-   top: 113vh;
+   top: 113%;
     position: fixed;
     height: 30%;
     width: 50%;
@@ -70,6 +70,7 @@ video {
     height: 100%;
     width: 100%;
     background: blue;
+    z-index: 100;
 }
 .home.fifth{
    top: 280%;
@@ -77,6 +78,8 @@ video {
     height: 100%;
     width: 100%;
     background: white;
+    z-index: 100;
+
 }
 .home.sixth{
    top: 380%;
@@ -84,6 +87,7 @@ video {
     height: 100%;
     width: 100%;
     background: red;
+    z-index: 100;
 }
 .home.seventh{
    top: 480%;
@@ -91,6 +95,7 @@ video {
     height: 100%;
     width: 100%;
     background: blue;
+    z-index: 100;
 }
 .home.eight{
    top: 580%;
@@ -98,6 +103,7 @@ video {
     height: 100%;
     width: 100%;
     background: blue;
+    z-index: 100;
 }
 
 

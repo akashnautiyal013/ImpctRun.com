@@ -48,10 +48,10 @@ setInterval(function(){
      .end().appendTo('#Causecontainer');}, 
      2000);
 
-    $('#Causeimg img:gt(0)').hide();
+    $('#Causeimg div:gt(0)').hide();
 setInterval(function(){
-    $('#Causeimg img:first-child').fadeOut('slow')
-     .next('img').fadeIn('slow')
+    $('#Causeimg div:first-child').fadeOut('slow')
+     .next('div').fadeIn('slow')
      .end().appendTo('#Causeimg');}, 
      2000);
 

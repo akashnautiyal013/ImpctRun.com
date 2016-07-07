@@ -757,7 +757,7 @@ img.phoneimageIN {
     left: 0;
     text-align: left;
     }
-#Causeimg img{
+#Causeimg div{
     position: absolute;
     right: 0;
     bottom: 0;
@@ -977,7 +977,7 @@ img.ViewApp {
     position: absolute;
     margin-left: 10px;
 }
-#Causecontainer p{position:absolute; top:0; left:0}
+.FifthBorder p{position:absolute;}
 
 #Causeimg {
     margin-left: 10px;
