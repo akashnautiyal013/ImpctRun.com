@@ -764,6 +764,8 @@ img.phoneimageIN {
     height: 70%;
     width: 51.3%;
     float: right;
+    background-size:cover;
+    background-position:0%;  
 }
 .SeventhBorder {
     position: absolute;
