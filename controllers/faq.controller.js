@@ -14,4 +14,8 @@ var loader = function() {
             $("body").fadeIn(400);
         });
     };
+     $(document).ready(function() {
+        loader();
+    });
+
 } 
