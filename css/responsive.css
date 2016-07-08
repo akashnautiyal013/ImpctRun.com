@@ -8,8 +8,15 @@
 .logo img {
     width: 70% !important;
 }
-
-   
+video{
+    z-index: 0!important;
+}
+   .overlay {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    display: none;
+}
 
 .home.eight {
     position: fixed;

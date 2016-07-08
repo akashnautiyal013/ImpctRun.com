@@ -875,14 +875,20 @@ img.phoneimageIN {
     border-bottom: 5px solid rgb(48, 93, 169);
 }
 .overlay.last {
-    background: rgba(138, 43, 226, 0.54);
+    background: rgba(25, 62, 130, 0.79);
+    z-index: 1000;
 }
 .lastslide {
     background-image: url("/ImpactRunSiteImages/ImpactRun_Img7.jpg");
     background-size: cover;
     height: 100%;
     position: absolute;
-    z-index: 11;
+    width: 100%;
+}
+.wraplastcontent {
+    position: absolute;
+    z-index: 1000;
+    height: 100%;
     width: 100%;
 }
 .lastslide h1 {
