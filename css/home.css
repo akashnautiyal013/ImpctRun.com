@@ -18,6 +18,26 @@ a:focus, a:hover {
     height: 100%;
     width: 100%;
 }
+.navbarfade.ng-scope {
+    position: fixed;
+    /* right: 0; */
+    /* bottom: 0; */
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 10px;
+    background:transparent;
+    z-index: 1000;
+}
+.colorbar {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 10px;
+    background: #ef2e2e;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+}
 h1.first {
     font-family: montserrat;
     font-size: 1.8vw;
@@ -557,7 +577,7 @@ img.phoneimageIN {
     -webkit-transform: rotate(40deg);
     -ms-transform: rotate(40deg);
     transform: rotate(40deg);
-    height: 275px;
+    height: 100%;
     width: 2px;
     margin: 0 auto;
     left: 30%;
@@ -582,7 +602,7 @@ img.phoneimageIN {
     top: 0;
 }
 .ContainerFifthText {
-    width: 30vw;
+    width: 50vw;
     text-align: left;
     position: absolute;
     top: 0;
@@ -614,9 +634,12 @@ img.phoneimageIN {
     top: -28px;
 }
 
+
 .ContainerFifthText h2 {
-    font-size: 2.1vw;
-    color: rgb(48, 93, 169);
+    font-size: 3.4vw;
+    color: rgb(25, 62, 130);
+    font-weight: 900;
+    font-family: montserrat;
 }
 .FifthSlidWrap {
     top: 0;
@@ -643,6 +666,7 @@ img.phoneimageIN {
     font-size: 3.4vh;
     width: 40%;
     margin-left: 10px;
+    font-weight: 900;
 }
 
 
@@ -767,6 +791,7 @@ img.phoneimageIN {
     background-size:cover;
     background-position:0%;  
 }
+
 .SeventhBorder {
     position: absolute;
     height: 56%;
