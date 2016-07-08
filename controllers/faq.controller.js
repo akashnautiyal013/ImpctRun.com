@@ -9,4 +9,9 @@ $(function(){
     $(this).parent('li').addClass('active');    
   });
 });
+var loader = function() {
+        $("#loader").delay(2000).fadeOut(400, function() {
+            $("body").fadeIn(400);
+        });
+    };
 } 
