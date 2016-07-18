@@ -39,6 +39,13 @@ setInterval(function(){
      .end().appendTo('#changingcontainer');}, 
      2000);
 
+$('#changingcontainersec h1:gt(0)').hide();
+setInterval(function(){
+    $('#changingcontainersec h1:first-child').fadeOut('slow')
+     .next('h1').fadeIn('slow')
+     .end().appendTo('#changingcontainersec');}, 
+     2000);
+
 
 
     $('#Causecontainer p:gt(0)').hide();
@@ -48,11 +55,25 @@ setInterval(function(){
      .end().appendTo('#Causecontainer');}, 
      2000);
 
+    $('#Causecontainersec p:gt(0)').hide();
+setInterval(function(){
+    $('#Causecontainersec p:first-child').fadeOut('slow')
+     .next('p').fadeIn('slow')
+     .end().appendTo('#Causecontainersec');}, 
+     2000);
+
     $('#Causeimg div:gt(0)').hide();
 setInterval(function(){
     $('#Causeimg div:first-child').fadeOut('slow')
      .next('div').fadeIn('slow')
      .end().appendTo('#Causeimg');}, 
+     2000);
+
+    $('#Causeimgsec div:gt(0)').hide();
+setInterval(function(){
+    $('#Causeimgsec div:first-child').fadeOut('slow')
+     .next('div').fadeIn('slow')
+     .end().appendTo('#Causeimgsec');}, 
      2000);
 
     

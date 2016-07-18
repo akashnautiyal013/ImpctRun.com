@@ -1,9 +1,24 @@
 @media screen and (max-width: 480px) {
+ 
+body{
+    height: 6000px !important;
+}
+
   .logo {
-    padding-top: 73px;
+    padding-top: 50px;
     font-family: montserrat,sans-serif;
     font-size: 9.7vw;
     color: white;
+}
+.colorbar{
+    display: none;
+}
+
+.mobileWeb{
+    display: block !important;
+}
+.desktopWeb{
+    display: none;
 }
 .logo img {
     width: 70% !important;
@@ -82,7 +97,9 @@ h2.tagline.sec {
     background: white;
     border-radius: 4px;
 }
-
+.centerdiv.sec {
+    top: 150%;
+}
   .HomeSecondImage {
     right: -100px;
     background-size: cover;
@@ -254,6 +271,7 @@ h2.tagline.sec {
     position: absolute !important;
     height: 20%;
     width: 100%;
+    top:10%;
     padding: 0;
     z-index: 10;
     bottom: 10%;
@@ -284,7 +302,7 @@ h2.tagline.sec {
     margin-right: 0;
     font-size: 12.8vw;
     font-family: montserrat;
-    margin-top: 50px;
+    margin-top: 35px;
 }
     .lastslide{
     text-align: center;
@@ -345,6 +363,12 @@ h2.tagline.sec {
     left: -53vw;
     top: -99px;
 }
+
+
+div#changingcontainersec h1 {
+    position: absolute;
+    margin-top: -13px;
+}
     .now1 {
         position: absolute;
         height: 200px;
@@ -353,7 +377,8 @@ h2.tagline.sec {
     .now2 {
         display: none;
     }
-    #Causeimg div {
+    #Causeimgsec div  {
+        position: absolute;
         left: 0;
         width: 45%;
         height: 100%;
@@ -365,7 +390,10 @@ h2.tagline.sec {
     .textWrapFifth {
         right: 0;
     }
+
     .ContainerFifthText {
+
+
         width: 51vw;
         text-align: left;
         position: absolute;
