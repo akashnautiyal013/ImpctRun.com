@@ -11,8 +11,15 @@ a{
 a:focus, a:hover {
     color: white;
     text-decoration: none;}
-
-
+.tagline{
+position:relative !important;
+color:white !important;
+font-weight:600;
+}
+.logo.sec {
+    text-align: center;
+    margin-top: 7%;
+}
 .overlay {
     position: absolute;
     height: 100%;
@@ -903,10 +910,10 @@ img.phoneimageIN {
 .btnCenter {
     width: 100%;
     margin: 0 auto;
-    position: absolute;
+    position:relative;
     left: 0;
     right: 0;
-    top: 200px;
+    top: 50px;
     z-index: 100;
 }
 
