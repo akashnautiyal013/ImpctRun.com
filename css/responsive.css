@@ -1,7 +1,7 @@
 @media screen and (max-width: 480px) {
  
 body{
-    height: 6000px !important;
+    height: 0px !important;
 }
 
   .logo {
@@ -9,6 +9,13 @@ body{
     font-family: montserrat,sans-serif;
     font-size: 9.7vw;
     color: white;
+}
+img.homesecimg {
+    height: 67% !important;
+    float: right;
+}
+.textWrap{
+    left: 30px;
 }
 .colorbar{
     display: none;
@@ -40,40 +47,65 @@ h2.tagline.sec {
 }
 
 .home.eight {
-    position: fixed;
+    position: absolute !important;
     height: 100%;
     width: 100%;
     background: blue;
 }
 .home.seventh {
-    position: fixed;
+    position: absolute !important;
     height: 100%;
     width: 100%;
     background: blue;
 }
 .home.sixth {
-    position: fixed;
+    position: absolute !important;
     height: 100%;
     width: 100%;
     background: red;
 }
 .home.fifth {
-    position: fixed;
+    position: absolute !important;
     height: 100%;
     width: 100%;
     background: white;
 }
 .home.forth {
-    position: fixed;
+    position: absolute !important;
     height: 100%;
     width: 100%;
     background: blue;
 }
+
+
+.home.third {
+    top: 113%;
+    position: absolute !important;
+    height: 30%;
+    width: 50%;
+    background: transparent;
+}
+.home.second {
+    position: absolute !important;
+    height: 80%;
+    width: 50%;
+    background: transparent;
+    top: 100%;
+    right: 0;
+    float: right;
+    z-index: 100;
+}
   .containerHome{
-    position:absolute;
+    position:absolute !important;
     height: 108%;
     width: 100%;
   }
+  .home {
+    position: absolute !important;
+    height: 100%;
+    width: 100%;
+    background: transparent;
+}
     .container {
         background-position: 50%;
     }
@@ -98,10 +130,13 @@ h2.tagline.sec {
     border-radius: 4px;
 }
 .centerdiv.sec {
-    top: 150%;
+    top: 10%;
+}
+
+.textWrapEight {
+    padding: 0;
 }
   .HomeSecondImage {
-    right: -100px;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 19vw 100%;
@@ -138,8 +173,8 @@ h2.tagline.sec {
     margin: 0 auto;
     top: 45%;
 }
-    .containerSecond1 {
-    width: 150%;
+   .containerSecond1 {
+    width: 117%;
     position: absolute;
     z-index: 10;
     border-left: 5px solid rgb(48, 93, 169);
@@ -147,6 +182,7 @@ h2.tagline.sec {
     border-bottom: 5px solid rgb(48, 93, 169);
     right: 0;
     bottom: 7vh;
+    height: 44%;
 }
  .lineTilt {
     height: 78%;
@@ -227,7 +263,7 @@ h2.tagline.sec {
         width: 57%;
         height: 100%;
         right: 0;
-        padding-left: 21vw;
+        padding-left: 0 !important;
         padding-top: 0;
     }
     .lineTilt.Second {
@@ -259,16 +295,17 @@ h2.tagline.sec {
     .ContainerThirdText p {
      font-size: 3.2vw;
     width: 59%;
-    margin-left: -10%;
+    margin-left: 9%;
     font-weight: 600;
     /* position: absolute; */
 }
     .ContainerThirdText h2 {
         font-size: 5.8vw;
         width: 58%;
+        margin-left: 18%;
     }
     .ContainerThirdText {
-    position: absolute !important;
+    position: relative !important;
     height: 20%;
     width: 100%;
     top:10%;
@@ -320,11 +357,10 @@ h2.tagline.sec {
  .SecondSLideLastText {
     letter-spacing: 1px;
     margin-top: 0;
-    position: fixed;
+    position: absolute !important;
     bottom: 50px;
-    left: -53%;
     top: 166%;
-    width: 183%;
+    width: 100%;
     z-index: 100;
 }
     .ContainerFourthText.wow.pulse {
