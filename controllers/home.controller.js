@@ -18,12 +18,23 @@ function HomeController($scope, $location, anchorSmoothScroll) {
  
     
      
-var s = skrollr.init({
+
+$(function () {
+  // initialize skrollr if the window width is large enough
+  if ($(window).width() > 480) {
+    skrollr.init({
   render: function(data){
     document.querySelector(".whereami").innerHTML = data.curTop;
+  }});
   }
-});
 
+  // disable skrollr if the window is resized below 768px wide
+  $(window).on('resize', function () {
+    if ($(window).width() <= 480) {
+      skrollr.init().destroy(); // skrollr.init() returns the singleton created above
+    }
+  });
+});
 
 // window.onscroll = function(){
 //   var frame4 = document.querySelector(".frame4");
