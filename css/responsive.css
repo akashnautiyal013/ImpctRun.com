@@ -26,8 +26,11 @@ img.homesecimg {
     display: none;
 }
 
-.mobileWeb{
+.mobileWeb {
     display: block !important;
+    position: fixed;
+    overflow: scroll;
+    height: 100%;
 }
 .desktopWeb{
     display: none;
