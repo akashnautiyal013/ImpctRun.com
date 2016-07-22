@@ -3,6 +3,7 @@
 body{
     height: 0px !important;
     font-family: montserrat,sans-serif;
+    position: relative !important;
 }
 
   .logo {
@@ -268,7 +269,7 @@ h1.first img {
         right: 0;
         background-size: contain;
         z-index: 1;
-        background-position: 42px 98%;
+        background-position: 42px -39%;
     }
     .HomeEightImage {
         width: 57.3%;
@@ -425,9 +426,9 @@ h1.first img {
     color: #1C3490;
 }
     .ContainerFourthText p {
-    font-size: 7vw;
+    font-size: 6.5vw;
     width: 85vw;
-    left: 2;
+    left: 2px;
     text-align: left;
 }
    .lineTilt2 {
