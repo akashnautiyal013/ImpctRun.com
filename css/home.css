@@ -37,6 +37,9 @@ img.homesecimg {
     width: 100%;
     background: transparent;
 }
+.landscape{
+    display: none;
+}
 .tiltlineDiv2{
 transform:rotate(45deg);
 }

@@ -16,6 +16,9 @@ img.homesecimg {
     height: 67% !important;
     float: right;
 }
+.landscape{
+    display: none;
+}
 .textWrap{
     left: 15px;
 }
@@ -596,5 +599,34 @@ p.contact2 {
     color: white;
     font-size: 6.2vw;
     font-family: montserrat;
+}
+}
+@media screen and (max-width: 780px) {
+  .landscape{
+    display: block !important;
+}
+.mobileWeb{
+    display: none !important;
+}
+.desktopWeb{
+    display: none !important;
+}
+.landscape h1 {
+    position: absolute;
+    width: 80%;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    top: 20px;
+    text-align: center;
+}
+.landscape img {
+    position: fixed;
+    width: 34%;
+    height: 58%;
+    top: 43%;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
 }
 }
