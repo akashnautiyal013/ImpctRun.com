@@ -601,8 +601,9 @@ p.contact2 {
     font-family: montserrat;
 }
 }
-@media screen and (max-width: 780px) {
-  .landscape{
+
+@media screen and (max-width: 780px) and (min-width: 480px) {
+     .landscape{
     display: block !important;
 }
 .mobileWeb{
