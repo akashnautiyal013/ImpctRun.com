@@ -63,66 +63,66 @@ h2.tagline.sec {
     transform: rotate(45deg);
 }
 .home.eight {
-    position: absolute !important;
+    position: relative !important;
     height: 600px  !important;
     width: 100%;
     background: blue;
-    top:3300px !important;
+    top:150px !important;
 }
 .home.seventh {
-    position: absolute !important;
+    position: relative !important;
     height: 600px !important;
     width: 100%;
     background: blue;
-    top:2700px !important;
+    top:150px !important;
 }
 .home.sixth {
-    position: absolute !important;
+    position: relative !important;
     height: 500px !important;
     width: 100%;
     background: red;
-    top:2200px !important;
+    top:150px !important;
 }
 .home.fifth {
-    position: absolute !important;
+    position: relative !important;
     height: 600px !important;
     width: 100%;
     background: white;
-    top:1600px !important;
+    top:150px !important;
 }
 .home.forth {
-    position: absolute !important;
+    position: relative !important;
     height: 600px !important;
-    top:1000px !important;
+    top:150px !important;
     width: 100%;
     background: blue;
 }
 
 
 .home.third {
-    top: 610px !important;
-    position: absolute !important;
+    top: 20px !important;
+    position: relative !important;
     height: 300px !important;
     width: 50%;
     background: transparent;
 }
 .home.second {
-    position: absolute !important;
+    position: relative !important;
     height: 80%;
     width: 50%;
     background: transparent;
-    top: 560px !important;
+    top: -50px !important;
     right: 0;
     float: right;
     z-index: 100;
 }
   .containerHome{
-    position:absolute !important;
+    position:relative !important;
     height: 600px !important;
     width: 100%;
   }
   .home {
-    position: absolute !important;
+    position: relative !important;
     height: 600px !important;
     width: 100%;
     background: transparent;
@@ -327,8 +327,18 @@ h1.first img {
     .ContainerThirdText h2 {
         font-size: 5.8vw;
         width: 58%;
-        margin-left: 18%;
+        margin-left: 23%;
     }
+    .centerdiv.sec h1 {
+    padding: 0;
+    margin: 0;
+    left: 14px;
+    position: relative;
+    margin-left: 14px;
+    margin-top: -21px;
+    font-size: 31px;
+    width: 80%;
+}
     .ContainerThirdText {
     position: relative !important;
     height: 20%;
@@ -349,7 +359,7 @@ h1.first img {
     text-align: center;
     left: 25px;
     right: 0;
-    top: 13vh;
+    top: 60px;
     width: 20%;
 }
     .lastslide h1 {
@@ -384,7 +394,7 @@ h1.first img {
     margin-top: 0;
     position: absolute !important;
     bottom: 50px;
-    top: 935px !important;
+    top: 965px !important;
     width: 100%;
     z-index: 100;
 }
@@ -400,7 +410,7 @@ h1.first img {
     font-weight: 700;
     color: #1C3490;
     font-size: 27vw;
-    line-height: 14vh;
+    line-height: 95px;
 }
     .ContainerFifth {
         position: relative;
