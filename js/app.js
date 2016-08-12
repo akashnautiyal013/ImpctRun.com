@@ -1,7 +1,7 @@
 (function () {
     'use strict';
    var app = angular.module('Impactrun', ['ngRoute', 'ngCookies'])
-        .config(config)
+    .config(config)
      app.service('anchorSmoothScroll', function(){
 
     this.scrollTo = function(eID) {
@@ -56,12 +56,12 @@
 
 });
 
-    config.$inject = ['$routeProvider', '$locationProvider',];
-    function config($routeProvider, $locationProvider) {
+    config.$inject = ['$routeProvider', '$locationProvider'];
+    function config($routeProvider,$locationProvider) {
        $locationProvider.html5Mode({
-     enabled: true,
-       requireBase: false
-  });
+        enabled: true,
+        requireBase: false
+        });
         $routeProvider
             .when('/', {
                 controller: 'HomeController',

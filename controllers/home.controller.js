@@ -1,15 +1,25 @@
 angular.module('Impactrun', []).controller('HomeController', HomeController);
 
 function HomeController($scope) {
-
       // set the location.hash to the id of
       // the element you wish to scroll to.
-   
-    var loader = function() {
-        $("#loader").delay(4000).fadeOut(400, function() {
-            $("body").fadeIn(400);
-        });
+ 
+    // $scope.Googleanal = function() {
+    //  console.log('mycheck');
+    //       // ga('send', 'event', "play_store", "download", "homepage");
+
+    // };
+     
+
+    $scope.Googleanal = function() {
+      ga('send', 'event', "play_store", "download", "homepage");
+      console.log('mycheck');
     };
+    var loader = function() {
+      $("#loader").delay(4000).fadeOut(400, function() {
+      $("body").fadeIn(400);
+      });
+     };
  
     
      
@@ -18,7 +28,7 @@ $(function () {
   // initialize skrollr if the window width is large enough
   if ($(window).width() > 480) {
     skrollr.init({
-  render: function(data){
+    render: function(data){
     document.querySelector(".whereami").innerHTML = data.curTop;
   }});
   }
