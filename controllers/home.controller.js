@@ -1,6 +1,6 @@
 angular.module('Impactrun', []).controller('HomeController', HomeController);
 
-function HomeController($scope) {
+function HomeController($scope,$location) {
       // set the location.hash to the id of
       // the element you wish to scroll to.
  
@@ -21,7 +21,6 @@ function HomeController($scope) {
       });
      };
  
-    
      
 
 $(function () {
@@ -96,6 +95,6 @@ setInterval(function(){
 
     $(document).ready(function() {
         loader();
-    });
+     });
 
 }

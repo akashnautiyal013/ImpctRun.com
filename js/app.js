@@ -58,10 +58,10 @@
 
     config.$inject = ['$routeProvider', '$locationProvider'];
     function config($routeProvider,$locationProvider) {
-       $locationProvider.html5Mode({
-        enabled: true,
-        requireBase: false
-        });
+       // $locationProvider.html5Mode({
+       //  enabled: true,
+       //  requireBase: false
+       //  });
         $routeProvider
             .when('/', {
                 controller: 'HomeController',
@@ -82,7 +82,11 @@
               templateUrl: 'templates/AboutUs.html',
               controller:'AboutusController'
             })
-        .otherwise({ redirectTo: '/' });
+              .when('/AppDownload', {
+              templateUrl: 'templates/AppDownload.html',
+              controller:'AppDownloadController'
+            })
+        .otherwise({ redirectTo: '/AppDownload' });
     }
 
 
