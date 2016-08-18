@@ -979,24 +979,23 @@ img.ViewApp {
     height: 100%;
     top: 0;
 }
-
-
-
-
 #changingcontainer {
     position: fixed;
     margin-left: 10px;
 }
-#changingcontainer h1{position:absolute; top:0; left:0}
-
-
-#Causecontainer {
-    position: absolute;
-    margin-left: 10px;
+.FifthBorder h1 {
+    font-size: 2vw;
+    width: 225px;
+    margin-top: 1%;
+    margin-left: 1%;
+    color:#1C3490;
 }
-.FifthBorder p{position:absolute;}
-
-#Causeimg {
-    margin-left: 10px;
+img#causesImg {
+    height: 70%;
+    width: 54%;
+    position:absolute;
+    bottom: 0;
+    right: 0;
+    background-position:10% 50%;
+    background-size: cover;
 }
-

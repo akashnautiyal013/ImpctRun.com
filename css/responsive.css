@@ -603,6 +603,35 @@ p.contact2 {
     font-size: 6.2vw;
     font-family: montserrat;
 }
+div#Causeimgsec2 img {
+    height: 100%;
+    width: 46%;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background-size: cover;
+    background-position:20% 40%;
+}
+div#Causeimgsec2 img:nth-child(2) {
+    height: 100%;
+    width: 46%;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background-size: cover;
+    background-position:20% 70%;
+}
+
+h1#causes2{
+    position: absolute;
+    right: 0;
+    padding: 0;
+    height: 23%;
+    width: 52%;
+    font-size: 15px;
+    bottom: 0;
+}
+
 }
 
 @media screen and (max-width: 780px) and (min-width: 480px) {
@@ -633,4 +662,6 @@ p.contact2 {
     left: 0;
     right: 0;
 }
+
+
 }
