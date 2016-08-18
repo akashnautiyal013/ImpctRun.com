@@ -116,14 +116,14 @@ $(function () {
             });
           }, 2000);
       var causekeywordimg2 = ["To help a poor kid go to school","To support a farmer through rough drought days","To help a cancer victim through their tough battle",];
-      var causeimg2 = ["../ImpactRunSiteImages/ImpactRun_Img3.jpg",
-                       "../ImpactRunSiteImages/26b.jpg",
-                       "../ImpactRunSiteImages/ImpactRun_Img6.jpg"];
+      var causeimg2 = ["../ImpactRunSiteImages/26b.jpg",
+                       " ../ImpactRunSiteImages/ImpactRun_Img6.jpg ",
+                       "../ImpactRunSiteImages/ImpactRun_Img3.jpg"];
       var causecountimg2 = 1;
       setInterval(function(){    
           $("img#causesImg2").fadeOut(400, function(){        
           $(this).html(causekeywordimg2[causecountimg2]).css("background-image", 'url(' +causeimg2[causecountimg2] +')');
-          $(this).html(causekeywordimg2[causecountimg2[2]]).css("background-position", '40% 90%');
+          $(this).html(causekeywordimg2[causecountimg2[0]]).css("background-position", '40% 90%');
           causecountimg2++;        
             if(causecountimg2 == causekeywordimg2.length)            
                 causecountimg2 = 0;        
