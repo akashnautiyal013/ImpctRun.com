@@ -60,7 +60,6 @@
     function config($routeProvider,$locationProvider) {
        // $locationProvider.html5Mode({
        //  enabled: true,
-       //  requireBase: false
        //  });
         $routeProvider
             .when('/', {
@@ -74,7 +73,7 @@
               templateUrl: 'templates/Blog.html'
             })
 
-             .when('/faq', {
+            .when('/faq', {
               templateUrl: 'templates/faq.html',
               controller:'FaqController'
             })
@@ -82,11 +81,17 @@
               templateUrl: 'templates/AboutUs.html',
               controller:'AboutusController'
             })
-              .when('/AppDownload', {
+              .when('/impactLeague', {
+              templateUrl: 'templates/impactLeague.html',
+              controller:'impactLeagueController'
+            })
+
+            .when('/AppDownload', {
               templateUrl: 'templates/AppDownload.html',
               controller:'AppDownloadController'
             })
-        .otherwise({ redirectTo: '/AppDownload' });
+           
+          .otherwise({ redirectTo: '/' });
     }
 
 
