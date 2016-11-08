@@ -13,10 +13,31 @@ img.homesecimg {
     height: 100%;
     float: right;
 }
-.impactLeaguePage{
-
+.downloadBtnWrap {
+    margin-top: 8%;
+    display: inline-flex;
+}
+.wrapBtncontent {
+    height: 500px;
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+.appleappDownload{
+ height: 70px;
+ width: 214px;
+ background-size: cover; 
+ background-image: url('../ImpactRunSiteImages/appleappbtn.png');
+}
+.googleappDownload{
+ height: 70px;
+ width: 214px;
+ background-size: cover;
+ background-image: url('../ImpactRunSiteImages/googleappbtn.png');
 }
 .ImpactLeagueForm{
+
     position:absolute;   
     height: 100%;
     width: 100%;
@@ -378,12 +399,6 @@ section#section01 {
     font-family: montserrat;
     font-size:  1.8vw;
     font-weight: 100;
-    width: 75%;
-    position: absolute;
-    left: 0;
-    right: 0;
-    margin: 0 auto;
-    top: 45%;
 }
 .logo {
     padding-top: 30px;
@@ -933,11 +948,10 @@ section#section01 {
     border-radius: 9px;
 }
 .btnCenter {
+    display: flex;
     width: 100%;
-    margin: 0 auto;
-    position:relative;
-    left: 0;
-    right: 0;
+    justify-content: center;
+    position: relative;
     top: 50px;
     z-index: 100;
 }

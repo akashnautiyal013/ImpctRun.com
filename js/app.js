@@ -58,17 +58,16 @@
 
     config.$inject = ['$routeProvider', '$locationProvider'];
     function config($routeProvider,$locationProvider) {
-       // $locationProvider.html5Mode({
-       //  enabled: true,
-       //  });
+
+       // $locationProvider.html5Mode(true);
+
         $routeProvider
             .when('/', {
                 controller: 'HomeController',
                 templateUrl: 'templates/Home.html'
                
             })
-
-            .when('/blog', {
+           .when('/blog', {
               controller: 'BlogController',
               templateUrl: 'templates/Blog.html'
             })
@@ -81,9 +80,8 @@
               templateUrl: 'templates/AboutUs.html',
               controller:'AboutusController'
             })
-              .when('/impactLeague', {
+            .when('/impactLeague', {
               templateUrl: 'templates/impactLeague.html',
-              controller:'impactLeagueController'
             })
 
             .when('/AppDownload', {
