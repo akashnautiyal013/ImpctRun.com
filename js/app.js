@@ -80,7 +80,7 @@
               templateUrl: 'templates/AboutUs.html',
               controller:'AboutusController'
             })
-            .when('/impactLeague', {
+            .when('/impactleague', {
               templateUrl: 'templates/impactLeague.html',
             })
 

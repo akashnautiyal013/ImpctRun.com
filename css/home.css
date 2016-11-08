@@ -13,12 +13,18 @@ img.homesecimg {
     height: 100%;
     float: right;
 }
+
 .downloadBtnWrap {
-    margin-top: 8%;
+    margin-left: -4%; 
     display: inline-flex;
 }
+.centerFlex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40%;
+}
 .wrapBtncontent {
-    height: 500px;
     width: 100%;
     justify-content: center;
     display: flex;
@@ -26,20 +32,25 @@ img.homesecimg {
 }
 .appleappDownload{
  height: 70px;
- width: 214px;
+ width: 227px;
  background-size: cover; 
  background-image: url('../ImpactRunSiteImages/appleappbtn.png');
 }
 .googleappDownload{
  height: 70px;
- width: 214px;
+ width: 227px;
+ margin-left: 10%;
  background-size: cover;
  background-image: url('../ImpactRunSiteImages/googleappbtn.png');
 }
 .ImpactLeagueForm{
-
-    position:absolute;   
+    overflow: auto;
     height: 100%;
+    width: 100%;
+}
+.impactLeaguePage.ng-scope {
+    
+    height: 100vh;
     width: 100%;
 }
 .logo img {
@@ -230,7 +241,9 @@ font-weight:600;
     background:transparent;
     z-index: 1000;
 }
+
 .colorbar {
+    display:none;
     position: fixed;
     top: 0;
     right: 0;
@@ -952,7 +965,7 @@ section#section01 {
     width: 100%;
     justify-content: center;
     position: relative;
-    top: 50px;
+    top: 25%;
     z-index: 100;
 }
 
@@ -968,13 +981,11 @@ section#section01 {
 }*/
 p.contact2 {
     text-align: center;
-    text-shadow:10px 5px 10px black;
     color: white;
     font-size: 1.2vw;
     font-family: montserrat;
 }
 .lastslide h2 {
-    text-shadow:10px 5px 10px black;
     color: white;
     font-size: 1.8vw;
     font-family: montserrat;
