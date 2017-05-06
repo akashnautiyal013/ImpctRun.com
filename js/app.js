@@ -88,6 +88,9 @@
               templateUrl: 'templates/AppDownload.html',
               controller:'AppDownloadController'
             })
+            .when('/privacypolicy', {
+              templateUrl: 'templates/privacypolicy.html',
+            })
            
           .otherwise({ redirectTo: '/' });
     }
