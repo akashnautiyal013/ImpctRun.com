@@ -983,7 +983,7 @@ section#section01 {
     width: 100%;
     justify-content: center;
     position: relative;
-    top: 25%;
+    top: 20%;
     z-index: 100;
 }
 
@@ -1019,11 +1019,10 @@ img.ViewApp {
 }
 .WraptextLastSlide2 {
     position: absolute;
-    bottom: 0;
+    bottom: 5%;
     width: 100%;
     text-align: center;
     height: 100px;
-    padding: 150px;
 }
 .WraptextLastSlide {
     position: absolute;
